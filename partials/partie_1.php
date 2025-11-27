@@ -6,7 +6,8 @@
 <!-- ========== CHAPITRE 1 : INTRODUCTION ========== -->
 <section id="concepts-base" class="mb-16">
     <h3 class="text-2xl font-semibold mb-4 text-blue-800">Chapitre 1 : Introduction à la Gestion de Projet et MS Project</h3>
-    
+            <img src = "img/logo.webp" alt = "logo MS Project" class = "m-auto w-48 zoomable" />
+  
     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 mb-6">
         <h4 class="text-xl font-bold text-gray-800 mb-4">1.1 Pourquoi utiliser un logiciel de gestion de projet ?</h4>
         <p class="text-gray-700 mb-4 text-justify">
@@ -29,6 +30,10 @@
     <div class="grid md:grid-cols-1 gap-8">
         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
             <h4 class="text-xl font-bold text-gray-800 mb-2">2.1 Le Diagramme de Gantt</h4>
+            
+                <img src = "img/gantt.png" alt = "Menu MS Project" class = "m-auto w-full zoomable" />
+  
+            
             <p class="text-gray-700 mb-4">
                 C'est l'outil de visualisation le plus populaire. Il représente les tâches sous forme de barres horizontales sur un calendrier.
             </p>
@@ -45,6 +50,9 @@
 
         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
             <h4 class="text-xl font-bold text-gray-800 mb-2">2.2 Le Diagramme de PERT (Réseau de tâches)</h4>
+           
+                   <img src = "img/pert7.png" alt = "Menu MS Project" class = "m-auto zoomable" />
+  
             <p class="text-gray-700 mb-4">
                 Le PERT (Program Evaluation and Review Technique) se concentre sur les <strong>relations logiques</strong> entre les tâches plutôt que sur le calendrier.
             </p>
