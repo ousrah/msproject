@@ -88,20 +88,7 @@
             <p class="text-center text-sm text-gray-500 mt-2">Exemple de tableau d'antériorités</p>
         </div>
 
-        <div class="bg-gray-50 p-4 rounded mb-6">
-            <p class="text-gray-700 font-semibold mb-2">L'estimation à 3 points</p>
-            <p class="text-gray-700 text-sm mb-2">
-                Cette formule vous donne une durée moyenne en fonction d'une estimation que vous jugez la plus probable, une seconde optimiste et une dernière, pessimiste.
-            </p>
-            <div class="text-center font-mono bg-white p-2 border rounded mb-2">
-                Estimation = (a + 4m + p) / 6
-            </div>
-            <ul class="list-disc ml-6 text-sm text-gray-600">
-                <li>a = estimation optimiste</li>
-                <li>m = probable (le "m" vient de "Most likely")</li>
-                <li>p = pessimiste</li>
-            </ul>
-        </div>
+
 
         <h5 class="font-bold text-blue-900 mt-4 mb-2">3. Construisez le réseau en reliant les tâches entre elles</h5>
         <p class="text-gray-700 mb-4">
@@ -109,7 +96,7 @@
         </p>
         
         <div class="mb-6">
-            <img src="img/pert3.png" alt="Comment construire un P.E.R.T ?" class="m-auto zoomable border rounded shadow-sm" />
+            <img src="img/pert2.png" alt="Comment construire un P.E.R.T ?" class="m-auto zoomable border rounded shadow-sm" />
             <p class="text-center text-sm text-gray-500 mt-2">Comment construire un P.E.R.T ?</p>
         </div>
 
@@ -126,7 +113,7 @@
         </p>
         
         <div class="mb-6">
-            <img src="img/pert4.png" alt="Le Diagramme PERT" class="m-auto zoomable border rounded shadow-sm" />
+            <img src="img/pert3.png" alt="Le Diagramme PERT" class="m-auto zoomable border rounded shadow-sm" />
             <p class="text-center text-sm text-gray-500 mt-2">Le Diagramme PERT</p>
         </div>
 
@@ -145,7 +132,7 @@
         <div class="bg-gray-100 p-4 rounded mb-6 border-l-4 border-gray-500">
             <h6 class="font-bold text-gray-800 mb-2">Le cas de la tâche fictive</h6>
             <p class="text-gray-700 text-sm">
-                Concernant la G, elle possède 2 antérieurs D et A. Comme une tâche ne peut être représentée que par une seule flèche, il est nécessaire de créer une tâche fictive. Comme la D possède la date au plus tôt la plus élevée, on crée à son extrémité de façon conventionnelle l'étape 3 - puis on crée une tâche fictive A' avec une durée de 0 reliant les étapes 1 et 3.
+                Concernant la G, elle possède 2 antérieurs D et A. Comme une tâche ne peut être représentée que par une seule flèche, il est nécessaire de créer une tâche fictive. Comme la D possède la date au plus tôt la plus élevée, on crée à son extrémité de façon conventionnelle l'étape 3 - puis on crée une tâche fictive G' avec une durée de 0 reliant les étapes 1 et 3.
             </p>
         </div>
 
@@ -158,7 +145,7 @@
         </p>
         
         <div class="mb-6">
-            <img src="img/pert5.png" alt="Planning PERT : dates au plus tard" class="m-auto zoomable border rounded shadow-sm" />
+            <img src="img/pert4.png" alt="Planning PERT : dates au plus tard" class="m-auto zoomable border rounded shadow-sm" />
             <p class="text-center text-sm text-gray-500 mt-2">Planning PERT : dates au plus tard</p>
         </div>
 
@@ -196,7 +183,11 @@
         </div>
 
         <div class="mb-6 overflow-x-auto">
-            <table class="min-w-full border-collapse border border-gray-300 text-sm">
+    
+            <img src="img/pert5.png" alt="Réseau PERT : chemin critique" class="m-auto zoomable border rounded shadow-sm" />
+   
+    
+        <table class="min-w-full border-collapse border border-gray-300 text-sm">
                 <thead>
                     <tr class="bg-gray-100">
                         <th class="border p-2">Tâche</th>
