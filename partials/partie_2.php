@@ -164,19 +164,19 @@
         <div class="grid md:grid-cols-2 gap-4">
             <div class="border p-3 rounded"><strong>Fin à Début (FD) :</strong> B ne commence que si A est fini. (Standard).
             <br>   
-               <img src = "img/fd.png" alt = "lien fd fin à début ms project" class = "m-auto zoomable" />
+               <img src = "img/FD.png" alt = "lien fd fin à début ms project" class = "m-auto zoomable" />
 </div>
             <div class="border p-3 rounded"><strong>Début à Début (DD) :</strong> B commence en même temps que A.
         <br>   
-               <img src = "img/dd.png" alt = "lien dd début à début ms project" class = "m-auto zoomable" />
+               <img src = "img/DD.png" alt = "lien dd début à début ms project" class = "m-auto zoomable" />
             </div>
             <div class="border p-3 rounded"><strong>Fin à Fin (FF) :</strong> B ne peut pas finir tant que A n'est pas fini.
         <br>   
-               <img src = "img/ff.png" alt = "lien ff fin à fin ms project" class = "m-auto zoomable" />
+               <img src = "img/FF.png" alt = "lien ff fin à fin ms project" class = "m-auto zoomable" />
             </div>
             <div class="border p-3 rounded"><strong>Début à Fin (DF) :</strong> Rare. B ne peut pas finir tant que A n'a pas commencé.
         <br>   
-               <img src = "img/fd.png" alt = "lien fd fin à début ms project" class = "m-auto zoomable" />
+               <img src = "img/DF.png" alt = "lien fd fin à début ms project" class = "m-auto zoomable" />
             </div>
         </div>
     </div>
